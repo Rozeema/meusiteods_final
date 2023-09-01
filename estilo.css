@@ -1,0 +1,185 @@
+html, body{
+margin: 0;
+}
+
+body{
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    background-color: #BF8D2C;
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 30%;
+    position: absolute;
+    top: 3%;
+    margin-left: 10%;
+}
+
+li {
+    color: black;
+    float:left;
+    list-style:none;
+    padding:  20 10 20 10; 
+    }
+
+li:hover{
+    background-color: #faf4e1;
+      }
+
+#menu {
+    margin-right: 10%;
+    margin-top: 15;
+    margin-left: 15; 
+    float:right;   
+}
+
+
+#fundo {
+    background: url("ods12.png");
+    padding-top: 160px;
+    width: 100%;
+    background-image:cover;
+    height: 150px;
+}
+
+#titulo{
+    text-align:center;
+    font-size: 40px;
+    line-height: 0.2;
+    }
+    
+
+#destaque{ 
+    padding: 4%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+    font-size:small;
+    background-color: #faf4e1;
+}
+
+
+#informacao {
+    text-align: justify;
+    padding: 5 15 5 10;
+    margin-bottom: 10;
+    float: right;
+     }
+
+section {
+    padding: 10;
+    float: right;  
+    }
+
+#contextualizacao{
+    text-align: justify;
+    margin-left: 12%;
+    margin-right: 15%;
+  }
+
+
+#importancia {
+    text-align: justify;
+    float: left
+}
+
+#saiba{
+    padding: 10%;
+    padding: 5 10 5 10;
+    text-align: justify;       
+    float: left;
+}
+
+.colunadois{
+    padding: 1% 4% 1% 1%;
+    float: left;
+    width: 30%; 
+    margin-left: 10%;
+    height: auto;
+    position: relative;
+    
+       }
+    
+.colunatres{
+        padding: 1% 2% 1% 1%;
+        float: left;
+        width: 20%; 
+        margin-right: 5%;
+        margin-left: 5%;
+        height: auto;
+        position: relative;
+           }
+
+.colunaquatro{
+    margin-left: 8%;
+    padding: 0 0 0 0;
+    float: left;
+    width: 15%; 
+    text-align: justify;
+    position: relative;
+    }
+
+.centralizada{
+    text-align: center;        
+    }
+
+.justificado{
+    text-align: justify;        
+    }
+
+#curiosidade{
+    padding: 5 5 5 5;
+    text-align: justify;
+    position: relative; 
+    float: left;   
+    }
+
+#sobre{
+    clear: both;    
+    float: left;
+     }
+   
+footer {
+    background-color: #BF8D2C;
+    clear: both;
+    padding: 5;
+    border: 0;
+    margin:0;
+    line-break: auto;
+    } 
+
+    @media all and (max-width: 768px) {
+        #menu {
+            visibility: hidden;
+        } 
+        .colunadois, .colunatres, .colunaquatro {
+             display: block;   
+             width: 80%;
+             padding: 0;
+             margin: 10px auto;
+             float: none;
+        }
+        #logodiv {
+            width: 100%;
+            position: relative;
+            text-align: center;
+            padding: 0px;
+        }
+        #logo {
+            margin-left: 0px;
+            transform: translateX(-50%);
+        }
+     }
+ 
+    
+
+
